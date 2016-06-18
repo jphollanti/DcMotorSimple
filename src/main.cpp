@@ -5,12 +5,12 @@ const int LED = 13;
 
 class PumpController {
   private:
-    DcMotor *pump;
+    ArduinoDcMotor *pump;
     int lastPass = 0;
     const int sec10 = 1000UL * 10;
 
   public: 
-    PumpController(DcMotor *pump) {
+    PumpController(ArduinoDcMotor *pump) {
       this->pump = pump;
     }
 
@@ -49,7 +49,7 @@ void setup() {
   
   pinMode(LED, OUTPUT);
 
-  DcMotor *m = new DcMotor(IN1, IN2);
+  DcMotor *m = new ArduinoDcMotor(IN1, IN2);
   controller = new PumpController(m);
 }
 
