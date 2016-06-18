@@ -8,3 +8,4 @@ clean: platformio run -t clean
 
 serial monitor: platformio serialports monitor 
 picks up the ports etc from ini file (i guess)
+http://docs.platformio.org/en/latest/userguide/cmd_serialports.html#platformio-serialports-monitor
