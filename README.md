@@ -2,6 +2,8 @@
 
 # Notes for platform io: 
 
+install with: sudo python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
+
 build: platformio run
 
 upload: platformio run -t upload
