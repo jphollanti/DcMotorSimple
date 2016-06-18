@@ -49,7 +49,7 @@ void setup() {
   
   pinMode(LED, OUTPUT);
 
-  DcMotor *m = new ArduinoDcMotor(IN1, IN2);
+  ArduinoDcMotor *m = new ArduinoDcMotor(IN1, IN2);
   controller = new PumpController(m);
 }
 
