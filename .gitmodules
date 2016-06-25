@@ -1,3 +1,0 @@
-[submodule "lib/ArduinoDcMotor"]
-	path = lib/ArduinoDcMotor
-	url = git@github.com:jphollanti/ArduinoDcMotor.git
