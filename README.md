@@ -15,4 +15,5 @@ serial monitor: platformio serialports monitor
 picks up the ports etc from ini file (i guess)
 
 external libraries are put in: .pioenvs/due/
+
 see more: http://docs.platformio.org/en/latest/userguide/cmd_serialports.html#platformio-serialports-monitor
