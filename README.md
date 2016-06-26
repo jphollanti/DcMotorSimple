@@ -27,6 +27,10 @@ apm is Atom Package Manager
 more about installing platformio-ide: http://docs.platformio.org/en/latest/ide/atom.html
 more about installing Atoms plugins in general: http://joshbranchaud.com/blog/2014/02/27/Installing-Packages-In-Atom-Editor.html
 
-## Settings
+## PlatformIO IDE Settings
 
-After installing platformio-ide Atom plugin you can see PlatformIO menu item. Under settings you can customize different things. In particular it would be good to customize the CLI options (buffer size etc.). Also, it's probably worth it to enable automatic build whenever a file is saved. 
+After installing platformio-ide Atom plugin you can see PlatformIO menu item. Under settings you can customize different things. In particular it would be good to customize the CLI options (buffer size etc.). Also, it's probably worth it to enable automatic build whenever a file is saved.
+
+## Install git-plus
+
+It's also good to install git-plus. You can do it for example via Atom Settings > install and search for git-plus.
