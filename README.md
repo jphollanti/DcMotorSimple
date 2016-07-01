@@ -34,3 +34,7 @@ After installing platformio-ide Atom plugin you can see PlatformIO menu item. Un
 ## Install git-plus
 
 It's also good to install git-plus. You can do it for example via Atom Settings > install and search for git-plus.
+
+##
+
+cmd + shift + p to give command.
